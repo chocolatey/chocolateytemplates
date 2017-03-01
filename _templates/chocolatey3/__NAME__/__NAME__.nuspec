@@ -9,7 +9,10 @@
     <authors>__REPLACE__</authors>
     <owners>__CHOCO_PKG_MAINTAINER_NAME__</owners>
     <summary>__REPLACE__</summary>
-    <description>__REPLACE__</description>
+    <!-- Note: <description> and <releaseNotes> are parsed as Markdown, so don’t indent their content (see https://github.com/chocolatey/chocolatey/wiki/CreatePackages#package-description-and-release-notes). -->
+    <description>
+__REPLACE__
+    </description>
     <projectUrl>__REPLACE__</projectUrl>
     <tags>__NAME__</tags>
     <copyright></copyright>
